@@ -13,7 +13,7 @@ jobs:
       run: date
     
   imprime-data-windows:
-    name: Imprime atual - Windowss
+    name: Imprime atual - Windows
     runs-on: windows-latest
   
     steps:
