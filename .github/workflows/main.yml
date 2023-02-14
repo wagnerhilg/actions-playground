@@ -5,37 +5,37 @@ on:
   
 jobs:
   imprime-data-ubuntu:
-  name: Imprime data atual  - Ubuntu
-  runs-on: ubutu-latest
+    name: Imprime data atual  - Ubuntu
+    runs-on: ubuntu-latest
   
-  steps: 
-  - name: Imprime data atual
-    run: date
+    steps: 
+    - name: Imprime data atual
+      run: date
     
   imprime-data-windows:
-  name: Imprime data atual - Windows
-  runs-on: windows-latest
+    name: Imprime atual - Windowss
+    runs-on: windows-latest
   
-  steps:
-  - name: Imprime data atual
-    run: date
+    steps:
+    - name: Imprime data atual
+      run: date
 
   imprime-data-macos:
-  name: Imprime data tual - Macos
-  runs-on: macos-latest
+    name: Imprime data atual - Macos
+    runs-on: macos-latest
   
-  steps:
-  - name: Imprime data atual
-    run: date
+    steps:
+    - name: Imprime data atual
+      run: date
 
   imprime-data-ubuntu-2:
-  name: Imprime data atual - Ubuntu2
-  runs-on: ubuntu-latest
-  needs: 
-  - imprime-data-ubuntu
-  - imprime-data-windows
-  - imprime-data-macos
+    name: Imprime data atual - Ubuntu2
+    runs-on: ubuntu-latest
+    needs: 
+    - imprime-data-ubuntu
+    - imprime-data-windows
+    - imprime-data-macos
   
-  steps:
-  - name: Imprime data atual
-    run: date
+    steps:
+    - name: Imprime data atual
+      run: date
