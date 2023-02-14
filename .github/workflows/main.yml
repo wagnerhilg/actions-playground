@@ -13,15 +13,7 @@ jobs:
     run: date
     
   imprime-data-windows:
-  name: Imprime data tual - Windows
-  runs-on: windows-latest
-  
-  steps:
-  - name: Imprime data atual
-    run: date
-
-  imprime-data-windows:
-  name: Imprime data tual - Windows
+  name: Imprime data atual - Windows
   runs-on: windows-latest
   
   steps:
