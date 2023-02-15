@@ -10,7 +10,7 @@ jobs:
   
     steps: 
     - name: Imprime data atual
-      run: date
+      run: ls -lrt 
     
   imprime-data-windows:
     name: Imprime atual - Windows
@@ -38,4 +38,4 @@ jobs:
   
     steps:
     - name: Imprime data atual
-      run: date
+      run: pwd
