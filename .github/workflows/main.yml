@@ -10,7 +10,7 @@ jobs:
   
     steps: 
     - name: Imprime data atual
-      run: ls -lrt 
+      run: ls -la
     
   imprime-data-windows:
     name: Imprime atual - Windows
@@ -18,7 +18,7 @@ jobs:
   
     steps:
     - name: Imprime data atual
-      run: date
+      run: dir
 
   imprime-data-macos:
     name: Imprime data atual - Macos
