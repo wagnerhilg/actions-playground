@@ -15,6 +15,6 @@ jobs:
     - name: Cria artefato
       uses: actions/upload-artifact@v3.1.2
       with:
-        name: ${{ VAR1 }}
+        name: ${{ VARIAVEL_1 }}
         path: . 
    
