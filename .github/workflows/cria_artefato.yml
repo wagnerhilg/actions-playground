@@ -1,0 +1,20 @@
+name: Cria artefato
+
+on:
+  push:
+  
+jobs:
+  cria_artefato:
+    name: cria artefato  - Ubuntu
+    runs-on: ubuntu-latest
+  
+    steps: 
+    - name: Faz checkout
+      uses: actions/checkout@v3.3.0
+      
+    - name: Cria artefato
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: ${{ VAR1 }}
+        path: . 
+   
